@@ -1,5 +1,5 @@
 import {createRoot} from 'react-dom/client';
-import {GuestList} from './healthMeter';
+import {HealthMeter} from './healthMeter';
 
 const root = createRoot(document.getElementById('root'));
 root.render(<HealthMeter />);
