@@ -10,7 +10,7 @@ const PULSE_ANIMATION = `
 `;
 
 const CONTAINER_STYLE = {
-  width: "60%",
+  width: "20rem",
   margin: "auto",
   position: "relative",
   minHeight: "40vh",
