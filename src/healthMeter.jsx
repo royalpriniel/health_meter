@@ -13,7 +13,6 @@ const CONTAINER_STYLE = {
   width: "60%",
   margin: "auto",
   position: "relative",
-  top: "90px",
   minHeight: "40vh",
   borderRadius: "20px 5px 100px",
   backgroundColor: "#ab0",
