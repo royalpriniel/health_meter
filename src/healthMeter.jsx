@@ -12,6 +12,7 @@ const PULSE_ANIMATION = `
 const CONTAINER_STYLE = {
   display: "flex",
   alignItems: "center",
+  justifyContent: "center",
   width: "20rem",
   margin: "auto",
   position: "relative",
@@ -25,6 +26,7 @@ const CONTAINER_STYLE = {
 const INNER_STYLE = {
   display: "flex",
   alignItems: "center",
+  justifyContent: "center",
   width: "95%",
   margin: "2% auto",
   border: "2px solid black",
