@@ -11,6 +11,7 @@ const PULSE_ANIMATION = `
 
 const CONTAINER_STYLE = {
   display: "flex",
+  flexDirection: "column",
   alignItems: "center",
   justifyContent: "center",
   width: "20rem",
