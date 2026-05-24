@@ -27,7 +27,6 @@ const CONTAINER_STYLE = {
 const INNER_STYLE = {
   display: "flex",
   alignItems: "center",
-  justifyContent: "center",
   width: "95%",
   margin: "2% auto",
   border: "2px solid black",
