@@ -10,6 +10,8 @@ const PULSE_ANIMATION = `
 `;
 
 const CONTAINER_STYLE = {
+  display: "flex",
+  alignItems: "center",
   width: "20rem",
   margin: "auto",
   position: "relative",
