@@ -17,7 +17,7 @@ const CONTAINER_STYLE = {
   width: "20rem",
   margin: "auto",
   position: "relative",
-  minHeight: "40vh",
+  minHeight: "20rem",
   borderRadius: "20px 5px 100px",
   backgroundColor: "#ab0",
   padding: "20px",
