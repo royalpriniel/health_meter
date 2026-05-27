@@ -15,6 +15,7 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 a {
   font-weight: 500;
@@ -29,14 +30,14 @@ body{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 #root{
 
   display: flex;
   align-items: center;
-  justify-items: center;
-  border-sizing: border-box;
+  justify-content: center;
+  box-sizing: border-box;
   border: dashed blue 0.2rem;
   border-radius:0;
   width: 93%;
@@ -53,7 +54,7 @@ h1 {
 
 button {
   border-radius: 1rem;
-  border: 1px solid transparent;
+  border: 0.05rem solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -67,7 +68,8 @@ button:hover {
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 0
+2rem auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {

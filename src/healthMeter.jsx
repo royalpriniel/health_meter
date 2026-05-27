@@ -17,8 +17,8 @@ const CONTAINER_STYLE = {
   width: "20rem",
   margin: "auto",
   position: "relative",
-  minHeight: "20rem",
-  borderRadius: "20px 5px 100px",
+  minHeight: "10rem",
+  borderRadius: "1rem 0.2rem 5rem",
   backgroundColor: "#ab0",
   padding: "1.5rem",
   boxSizing: "border-box",
@@ -27,9 +27,9 @@ const CONTAINER_STYLE = {
 const INNER_STYLE = {
   display: "flex",
   alignItems: "center",
-  width: "95%",
+  width: "100%",
   margin: "2% auto",
-  border: "2px solid black",
+  border: "0.1rem solid black",
   backgroundColor: "#052",
   height: "1.5rem",
 };
@@ -41,7 +41,12 @@ const BAR_BASE_STYLE = {
 };
 
 const BUTTON_STYLE = {
-  marginTop: '1.5rem',
+  display:'flex',
+  flexWrap: "wrap",
+  justifyContent: "center",
+  alignItems: "center",
+  cursor: 'pointer',
+  marginTop: '1rem',
   textAlign: 'center'
 };
 
@@ -91,4 +96,4 @@ export function HealthMeter() {
   );
 }
 
-const btn = { marginRight: '10px', padding: '10px', cursor: 'pointer', border: '2px solid black' };
+const btn = { display:'flex', justifyContent: "center", alignItems: "center", cursor: 'pointer', border: '0.1rem solid black' };
